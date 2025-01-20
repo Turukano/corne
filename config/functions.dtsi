@@ -1,0 +1,47 @@
+#define PRINT LC(P) //
+#define SELALL LC(A) //
+#define LCKSCRN LG(L) //
+#define EXPL LG(E) //
+#define RUN LG(R) //
+#define COPY LC(C) //
+#define CUT LC(X) //
+#define PASTE LC(V) //
+#define UNDO LC(DE_Z) //
+#define REDO LC(DE_Y) //
+#define NEW LC(N) //
+#define SAVE LC(S) //
+#define SCRNSHT LG(LS(S)) //
+#define TXTSHT LG(LS(T)) //requires powertoys
+#define SHUT LA(F4) //
+#define SEARCH LC(F) //
+#define PROJECT LG(P) //
+#define STREAM LG(K) //
+#define ROTATE LG(LS(R))
+#define ZOOMIN LC(DE_PLUS) //
+#define ZOOMOUT LC(DE_MINS) //
+
+#define DESKTOP LG(D) //
+#define REFRESH F5 //
+#define FULLSCRN LG(UP) //
+#define DOCKLEFT LG(LEFT) //
+#define DOCKRIGHT LG(RIGHT) //
+
+/*Firefox*/
+#define FFLEFT LC(LS(TAB)) //auf LA left
+#define FFRIGHT LC(TAB) //auf LA right
+#define FFNTAB LC(T) // auf LA up
+#define FFXTAB LC(F4) //auf LA down
+#define FFGOBACK LA(LEFT) //
+#define FFGOFORTH LA(RIGHT) //
+#define FFRECOV LC(LS(T)) //
+
+/*Word*/
+#define BOLD LC(B)
+#define ITAL LC(I)
+#define UNDER LC(U)
+#define ALIGNL LC(L)
+#define ALIGNC LC(E)
+#define ALIGNR LC(R)
+#define H1 LC(LA(N1))
+#define BULLET LC(LS(L)) //
+#define FOOTN LC(LA(F))
