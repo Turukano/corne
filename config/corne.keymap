@@ -11,8 +11,8 @@
 
 ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;)
 ZMK_BEHAVIOR(togwrit, tap_dance, tapping-term-ms = <250>; bindings = <&mo 2>, <&to 2>;)
-ZMK_BEHAVIOR(xnewtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp LC(T) &to 2>;)
-ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp LC(F) &to 2>;)
+ZMK_BEHAVIOR(xnewtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp NEWTAB &to 2>;)
+ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp SEARCH &to 2>;)
 
 
 ZMK_LAYER(navi,
@@ -31,7 +31,7 @@ ZMK_LAYER(snav,
      // ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮   ╭─────────────┬─────────────┬─────────────┬─────────────┬─────────────┬─────────────╮
           ___           &kp TXTSHT   &kp LC(LS(LEFT)) &kp LS(UP) &kp LC(LS(RIGHT)) &kp FN_CUT    ___           ___           ___           ___           ___           ___
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-          ___           &swapper      &kp LS(LEFT)   &kp LS(DOWN) &kp LS(RIGHT) &kp LS(ENTER)     ___           ___           ___           ___           ___           ___         
+          ___           &kp TAB      &kp LS(LEFT)   &kp LS(DOWN) &kp LS(RIGHT) &kp LS(ENTER)     ___           ___           ___           ___           ___           ___         
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
           ___           &kp K_APP     &kp FFLEFT    &kp PG_DN     &kp FFRIGHT   ___                ___           ___           ___           ___           ___           ___
      // ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
