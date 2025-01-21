@@ -11,7 +11,7 @@
 #define NEW LC(N) 
 #define SAVE LC(S) 
 #define SCRNSHT LG(LS(S)) // 
-#define TXTSHT LG(LS(T)) requires powertoys //
+#define TXTSHT LG(LS(T))  //requires powertoys
 #define SHUT LA(F4) 
 #define SEARCH LC(F) 
 #define PROJECT LG(P) 
@@ -27,10 +27,10 @@
 #define DOCKRIGHT LG(RIGHT) 
 
 /*Firefox*/
-#define FFLEFT LC(LS(TAB)) auf LA left
-#define FFRIGHT LC(TAB) auf LA right
-#define NEWTAB LC(T)  auf LA up
-#define XTAO LC(F4) auf LA down
+#define FFLEFT LC(LS(TAB)) //auf LA left
+#define FFRIGHT LC(TAB) //auf LA right
+#define NEWTAB LC(T) // auf LA up
+#define XTAO LC(F4) //auf LA down
 #define FFGOBACK LA(LEFT) 
 #define FFGOFORTH LA(RIGHT) 
 #define FFRECOV LC(LS(T)) 
