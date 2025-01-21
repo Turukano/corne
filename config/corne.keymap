@@ -12,7 +12,7 @@
 ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;)
 ZMK_BEHAVIOR(togwrit, tap_dance, tapping-term-ms = <250>; bindings = <&mo 2>, <&to 2>;)
 ZMK_BEHAVIOR(xnewtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp LC(T) &to 2>;)
-ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp SEARCH &to 2>;)
+ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp LC(F) &to 2>;)
 
 
 ZMK_LAYER(navi,
@@ -21,9 +21,9 @@ ZMK_LAYER(navi,
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
           ___           &kp TAB       &kp LEFT      &kp DOWN      &kp RIGHT     &kp ENTER         ___           ___           ___           ___           ___           ___         
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-          ___           &kp NEWTAB       &kp BSPC      &kp FN_UNDO  &kp FN_COPY    &kp SEARCH           ___           ___           ___           ___           ___           ___
+          ___           &kp NEWTAB    &kp BSPC      &kp FN_UNDO  &kp FN_COPY    &kp SEARCH        ___           ___           ___           ___           ___           ___
      // ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-                                                    ___           &lt SNAV      &togwrit          ___           ___           ___
+                                                    ___           &sl SNAV      &togwrit          ___           ___           ___
      //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
 )
 
