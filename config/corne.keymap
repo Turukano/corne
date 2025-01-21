@@ -10,9 +10,9 @@
 #include "functions.dtsi"
 
 ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;)
-ZMK_BEHAVIOR(togwrit, tap_dance, tapping-term-ms = <250>; bindings = <&mo writ>, <&to writ>;)
-ZMK_BEHAVIOR(newtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp NEWTAB &to writ>;)
-ZMK_BEHAVIOR(search, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp SEARCH &to writ>;)
+ZMK_BEHAVIOR(togwrit, tap_dance, tapping-term-ms = <250>; bindings = <&mo 3>, <&to 3>;)
+ZMK_BEHAVIOR(newtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp NEWTAB &to 3>;)
+ZMK_BEHAVIOR(search, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&kp SEARCH &to 3>;)
 
 
 ZMK_LAYER(navi,
