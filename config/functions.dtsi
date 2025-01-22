@@ -30,7 +30,7 @@
 #define FFLEFT LC(LS(TAB)) //auf LA left
 #define FFRIGHT LC(TAB) //auf LA right
 #define NEWTAB LC(T) // auf LA up
-#define XTAO LC(F4) //auf LA down
+#define XTAB LC(F4) //auf LA down
 #define FFGOBACK LA(LEFT) 
 #define FFGOFORTH LA(RIGHT) 
 #define FFRECOV LC(LS(T)) 
