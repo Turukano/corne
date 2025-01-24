@@ -11,7 +11,7 @@
 
 ZMK_HOLD_TAP(hml, flavor = "balanced"; tapping-term-ms = <280>; quick-tap-ms = <175>; require-prior-idle-ms = <150>; bindings = <&kp>, <&kp>; hold-trigger-key-positions = <KEYS_R THUMBS>; hold-trigger-on-release;)
 ZMK_HOLD_TAP(hmr, flavor = "balanced"; tapping-term-ms = <280>; quick-tap-ms = <175>; require-prior-idle-ms = <150>; bindings = <&kp>, <&kp>; hold-trigger-key-positions = <KEYS_L THUMBS>; hold-trigger-on-release;)
-ZMK_HOLD_TAP(ht, flavor = "balanced"; tapping-term-ms = <280>; quick-tap-ms = <125>; bindings = <&kp>, <&kp>;)
+ZMK_HOLD_TAP(ht, flavor = "balanced"; tapping-term-ms = <380>; quick-tap-ms = <125>; bindings = <&kp>, <&kp>;)
 ZMK_HOLD_TAP(holdmouse, flavor = "balanced"; tapping-term-ms = <280>; quick-tap-ms = <125>; bindings = <&mkp>, <&kp>;)
 
 #define ___ &trans
@@ -33,7 +33,7 @@ ZMK_LAYER(navi,
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
         &ht REFRESH TAB  &kp LEFT      &kp DOWN      &kp RIGHT  &holdmouse MB1 ENTER     ___               ___           ___           ___           ___           ___           ___         
      // ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
-         &xnewtab      ___            &kp FN_UNDO   &kp FN_COPY   &xsearch     ___                ___           ___           ___           ___           ___           ___
+         &kp NEWTAB      ___        &kp FN_UNDO   &ht PASTE FN_COPY   &kp SEARCH     ___                ___           ___           ___           ___           ___           ___
      // ╰─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤   ├─────────────┼─────────────┼─────────────┼─────────────┼─────────────┼─────────────┤
                                                     &togwrit      &mo 1        &kp BSPC            ___           ___           ___
      //                                           ╰─────────────┴─────────────┴─────────────╯   ╰─────────────┴─────────────┴─────────────╯
