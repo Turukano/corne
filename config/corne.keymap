@@ -21,8 +21,8 @@ ZMK_HOLD_TAP(holdmouse, flavor = "balanced"; tapping-term-ms = <280>; quick-tap-
 
 ZMK_TRI_STATE(swapper, bindings = <&kt LALT>, <&kp TAB>, <&kt LALT>;)
 ZMK_BEHAVIOR(togwrit, tap_dance, tapping-term-ms = <250>; bindings = <&mo 2>, <&to 2>;)
-ZMK_BEHAVIOR(xnewtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&macro_press &kp LCTRL>,<&macro_tap &kp T>,<&macro_release &kp LCTRL>,<&macro_tap &to 2>;)
-ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&macro_press &kp LCTRL>,<&macro_tap &kp F>,<&macro_release &kp LCTRL>,<&macro_tap &to 2>;)
+ZMK_BEHAVIOR(xnewtab, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&macro_press &kp LCTRL>,<&macro_tap &kp T>,<&macro_release &kp LCTRL>;)
+ZMK_BEHAVIOR(xsearch, macro, wait-ms = <100>; tap-ms = <5>; bindings = <&macro_press &kp LCTRL>,<&macro_tap &kp F>,<&macro_release &kp LCTRL>;)
 ZMK_COMBO(xwin,  &kp LGUI, 13 14 15, ALL, 25)
 ZMK_COMBO(xesc,  &kp ESC, 2 3, ALL, 25)
 
